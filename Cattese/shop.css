@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Itim', cursive;
+}
+html{
+    font-size: 20px;
+    scroll-behavior: smooth;
+    font-family: 'Itim', cursive;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.navbar-nav a{
+    color: #5E6697;
+    font-size: 1.2rem;
+    text-decoration: none;
+}

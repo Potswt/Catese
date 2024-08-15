@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATTEST</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>"
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+     <!-- สร้างเมนู -->
+     <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/cattest.png" width="100" height="100"></a> <div><h1>CATTEST</h1></div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="">
+                        <div class="">
+                         <button type="button" class="btn position-relative">
+                         <i class="fa fa-shopping-basket"></i>
+                         <span class="position-absolute top-0 start-100 translate-middle 
+                         badge bg-primary">0</span>
+                         </button>
+                         <button type="button" class="btn position-relative">
+                            <i class="fa fa-heart"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle 
+                            badge bg-primary">2</span>
+                            </button>           
+                           <button type="button" class="btn position-relative">
+                            <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                        <button class="nav bar-toggler border-0" type="button"
+                         data-bs-target="#navMenu" data-bs-toggle="collapse">
+                          <div class="collapse navbar-collapse" id ="navMenu">
+                         </div>   
+                        </button>                                  
+                    <li class="nav-item">
+                        <a href="homepage.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">Logs in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- การสร้าง slider -->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="myslider">
+            <ol class="carousel-indicators"> 
+                <button data-bs-target="#myslider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#myslider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#myslider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>แว่นตา-A001</h1>
+                            <p>สำหรับคอวัยรุ่นที่ชอบอ่านหนังสือ ป้องกันตาล้า ตัดแสงที่จ้าและเป็นอันตรายต่อดวงตา ถนอมสายตา </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>แว่นตา-B001</h1>
+                            <p>ด้วยกรอบรุ่นนี้ สำหรับคอวัยกลางคนที่ชอบอ่านหนังสือ ป้องกันตาล้า ตัดแสงที่จ้าและเป็นอันตรายต่อดวงตา ถนอมสายตา</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>แว่นตา-C001</h1>
+                            <p>สำหรับผู้สูงวัยที่ชอบอ่านหนังสือ ป้องกันตาล้า ตัดแสงที่จ้าและเป็นอันตรายต่อดวงตา ถนอมสายตา</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#myslider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#myslider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+ <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <h2><center>สินค้าแนะนำ</center></h2>
+                <div class="col-md-4 text-center">
+                    <picture>
+                        <img src="img/16371450658ec193810e11ebec5b38639e2ebd9ad8_thumbnail_750x.webp"img-fluid img-thumbnail" width="80 px" height="70px">
+                      </picture>
+                    <h3>แว่นตารุ่น A001</h3>
+                    <p><center>รับคอวัยรุ่นที่ชอบอ่านหนังสือ ป้องกันตาล้า ตัดแสงที่จ้าและเป็นอันตรายต่อดวงตา ถนอมสายตา</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <picture>
+                        <img src="img/1638756583c5443a8aeae362507e5f403b34a3479d_thumbnail_750x.webp"img-fluid img-thumbnail" width="80 px" height="70px">
+                      </picture>
+                    <h3>แว่นตารุ่น B002</h3>
+                    <p><center>ด้วยกรอบรุ่นนี้<br>หรับคอวัยกลางคนที่ชอบอ่านหนังสือ ป้องกันตาล้า ตัดแสงที่จ้าและเป็นอันตรายต่อดวงตา ถนอมสายตา</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <picture>
+                        <img src="img/16766201066b0a7676804bd4be3395dc46ceed03e7_thumbnail_405x552.jpg"img-fluid img-thumbnail" width="80 px" height="70px">
+                      </picture>
+                    <h3>แว่นตารุ่น C003</h3>
+                    <p><center>สำหรับผู้สูงวัยที่ชอบอ่านหนังสือ ป้องกันตาล้า ตัดแสงที่จ้าและเป็นอันตรายต่อดวงตา ถนอมสายตา</p>
+                </div>
+                <a href="shop.html" class="btn btn-warning">สั่งสินค้า</a>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">กรุณาเข้าสู่ระบบ</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>อีเมล์</label>
+                            <input type="email" placeholder="กรุณากรอกอีเมล์" class="form-control">
+                        </div>
+                    </form>
+                    <form>
+                        <div class="form-group">
+                            <label>รหัสผ่าน</label>
+                            <input type="password" placeholder="Password" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">สมัครบัญชี</a></button>
+                    <button class="btn btn-outline-success">เข้าสู่ระบบ</button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal">ยกเลิก</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container box">
+    <h2><center>ติดต่อเรา</center></h2>
+    <form>
+        <div class="form-group">
+            <label>ชื่อ-นามสกุล</label>
+            <input type="text" placeholder="กรุณากรอกชื่อและนามสกุล" class="form-control">
+        </div>
+    </form>
+    <form>
+        <div class="form-group">
+            <label>อีเมล์</label>
+            <input type="email" placeholder="กรุณากรอกอีเมล์" class="form-control">
+        </div>
+    </form>
+    <form>
+        <div class="form-group">
+            <input type="checkbox">
+            <label>ต้องการโปรชัวร์หรือไม่</label>
+        </div>
+    </form>
+</div>
+    <center><button class="btn btn-success">ส่งข้อมูล</button>
+    <button class="btn btn-danger" data-bs-dismiss="modal">ยกเลิก</button></center>
+</div>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p class="text-center"><h4>Copyright &copy; Potsawat Krudprasert 
+        </div>
+    </footer>
+    
+</body>
+</html>

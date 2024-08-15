@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Itim', cursive;
+}
+html{
+    font-size: 20px;
+    scroll-behavior: smooth;
+    font-family: 'Itim', cursive;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.navbar-nav a{
+    color: #5E6697;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.carousel-item{
+    height: 1000px;
+}
+.carousel-image-1{
+    background-image: url(img/banner1.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background-image: url(img/banner2.jpg);
+    background-size: cover;
+}
+.carousel-image-3{
+    background-image: url(img/banner3.jpg);
+    background-size: cover;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.bg-primary{
+    background-color: blue !important;
+}
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url("img/cattest.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(89, 82, 82);
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgb(157, 177, 218); */
+    width: 100%;
+    height: 100%;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}
